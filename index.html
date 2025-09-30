@@ -1,79 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ambrose Honour | Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(90deg, #003366, #000000);
-      color: #fff;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      margin-top: 10px;
-      font-size: 1.2em;
-      font-style: italic;
-    }
-    nav {
-      background: #002244;
-      padding: 10px 20px;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    nav .logo {
-      color: #fff;
-      font-weight: bold;
-      font-size: 1.2em;
-      text-decoration: none;
-    }
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-    }
-    nav ul li {
-      margin: 0 15px;
-    }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-    nav ul li a:hover {
-      color: #00ccff;
-    }
-    .menu-toggle {
-      display: none;
-      font-size: 1.8em;
-      color: #fff;
-      cursor: pointer;
-    }
-    @media (max-width: 768px) {
-      nav ul {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background: #002244;
-        text-align: center;
-      }
-      nav ul.s
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ambrose Honour | Cinematographer & Editor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Hero Section -->
+  <header class="bg-gradient-to-r from-purple-600 to-blue-500 text-white text-center py-20">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Ambrose Honour</h1>
+    <p class="text-lg md:text-2xl">Cinematographer | Video Editor | Storytelling & Motion Graphics</p>
+  </header>
+
+  <!-- About Section -->
+  <section class="py-16 px-6 md:px-20 text-center">
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAGQAZADASIAAhEBAxEB/8QAHAAAAgMBAQEBAAAAAAAAAAAABAUCAwYBAAcI/... (long base64 continues) ..." 
+      alt="Ambrose Honour" class="rounded-full w-40 h-40 mx-auto mb-6 shadow-lg">
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+    <p class="max-w-3xl mx-auto text-lg text-gray-600">
+      I’m a <strong>cinematographer and video editor</strong> with 7+ years of experience in
+      <strong>storytelling, marketing videos, and motion graphics</strong>. I specialize in creating
+      compelling video content that engages audiences and drives results. Beyond cinematography, I also
+      have expertise in <strong>real estate investment in Nigeria</strong>.
+    </p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="bg-gray-100 py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-bold text-center mb-12">Portfolio</h2>
+
+    <!-- Featured Reel -->
+    <div class="mb-12 text-center">
+      <h3 class="text-xl font-semibold mb-4">🎬 Featured Reel</h3>
+      <a href="https://www.instagram.com/reel/DIn9o6Mqqfd/?igsh=MXJ2d3NvZWwxMGpsbg==" 
+         target="_blank" 
+         class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg shadow hover:bg-purple-700 transition">
+         Watch Featured Reel
+      </a>
+    </div>
+
+    <!-- Other Reels Grid -->
+    <div class="grid gap-6 md:grid-cols-3">
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h4 class="font-semibold mb-2">Promo Reel 1</h4>
+        <a href="https://www.instagram.com/reel/DMho35pqIYF/?igsh=OWN4cnFwNmE5MGJ6" target="_blank" class="text-blue-600 hover:underline">Watch Reel</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h4 class="font-semibold mb-2">Promo Reel 2</h4>
+        <a href="https://www.instagram.com/reel/DIi15ZGKYx2/?igsh=YTlnbGRsZm54MHA2" target="_blank" class="text-blue-600 hover:underline">Watch Reel</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h4 class="font-semibold mb-2">Promo Reel 3</h4>
+        <a href="https://www.instagram.com/reel/DCpSrcCt0Rt/?igsh=ZmQ4aGI2anptdThm" target="_blank" class="text-blue-600 hover:underline">Watch Reel</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h4 class="font-semibold mb-2">Promo Reel 4</h4>
+        <a href="https://www.instagram.com/reel/DC6BRn4q2dt/?igsh=OXl0bHIydzV1emFy" target="_blank" class="text-blue-600 hover:underline">Watch Reel</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h4 class="font-semibold mb-2">Promo Reel 5</h4>
+        <a href="https://www.instagram.com/reel/DCZrX4zqXe3/?igsh=MWp5MXU1ZTc3cTAzaw==" target="_blank" class="text-blue-600 hover:underline">Watch Reel</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h4 class="font-semibold mb-2">Promo Reel 6</h4>
+        <a href="https://www.instagram.com/reel/DBsyZxSpxsH/?igsh=Ymg3cmJ6czc2OXFn" target="_blank" class="text-blue-600 hover:underline">Watch Reel</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h4 class="font-semibold mb-2">Promo Reel 7</h4>
+        <a href="https://www.instagram.com/reel/DBEjifLpaVN/?igsh=MWgwajQ1enV6djFzag==" target="_blank" class="text-blue-600 hover:underline">Watch Reel</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="py-16 px-6 md:px-20 text-center">
+    <h2 class="text-3xl font-bold mb-8">Skills & Expertise</h2>
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-4">🎥 Cinematography & Video Editing</h3>
+        <p class="text-gray-600">Storytelling, Motion Graphics, Marketing Videos, Adobe Suite, Filmora.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-4">🏡 Real Estate Investment</h3>
+        <p class="text-gray-600">Land acquisition, property development, and real estate consulting in Nigeria.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-gray-100 py-16 px-6 md:px-20 text-center">
+    <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+    <p class="text-lg text-gray-600 mb-4">Let’s work together on your next project!</p>
+    <p class="mb-2"><strong>WhatsApp / Call:</strong> <a href="tel:+2349127005134" class="text-blue-600 hover:underline">+234 912 700 5134</a></p>
+    <p class="mb-2"><strong>Email:</strong> <a href="mailto:honoura01@gmail.com" class="text-blue-600 hover:underline">honoura01@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ambrose-honour-157b35333" target="_blank" class="text-blue-600 hover:underline">View Profile</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 Ambrose Honour. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
